@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cqu.cqumonk.monkmusic.ui.MainActivity" >
+	<!--frame1  -->
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/index_background"
+	    android:gravity="center_horizontal"
+	    android:orientation="vertical">
+	    <!-- top bar  -->
+	    <include layout="@layout/top_bar"/>
+	   	<!-- pan  -->
+	    <include layout="@layout/pan_layout"/>
+	    <!-- word gridview-->
+	    <include layout="@layout/name_select"/>
+	    
+	</LinearLayout>
+		<!--悬浮的按钮 -->
+	<include layout="@layout/float_buttons"/>"
+	<!--过关界面  -->
+	<include layout="@layout/answer_right"/>"
+
+</FrameLayout>
